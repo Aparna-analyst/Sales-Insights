@@ -133,9 +133,9 @@ Created AIMS grid
 
 
 
-   ```dax
+   
 
-   Profit margin % = DIVIDE([Total profit Margin],[Revenue],0)
+       Profit margin % = DIVIDE([Total profit Margin],[Revenue],0)
 
 ---
 
@@ -146,9 +146,9 @@ Created AIMS grid
    - **Purpose:** To identify which markets contribute most to profit.
 
 
-```dax
 
-  Profit Mragin Contribution % = DIVIDE([Total profit Margin],CALCULATE([Total profit Margin],ALL('sales products'),ALL('sales markets'),ALL('sales customers')))  
+
+      Profit Mragin Contribution % = DIVIDE([Total profit Margin],CALCULATE([Total profit Margin],ALL('sales products'),ALL('sales markets'),ALL('sales customers')))  
 
 ---
 
@@ -165,9 +165,9 @@ Created AIMS grid
    - **Purpose:** To determine which markets contribute most to revenue.
 
 
-```dax
+
   
-  Revenue contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales markets'),ALL('sales customers')))
+      Revenue contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales markets'),ALL('sales customers')))
 
 ---
 
