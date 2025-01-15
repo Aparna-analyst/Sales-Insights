@@ -69,12 +69,16 @@ Created AIMS grid
    - **Visual Type:** Card  
    - **Metric:** Total revenue (calculated as the sum of the `sales amount` column).  
    - **Purpose:** Displays the overall revenue across all years and transactions.
+
+     
        Revenue = SUM('sales transactions'[sales_amount])
 
 ### 2. **Total Sales Quantity**
    - **Visual Type:** Card  
    - **Metric:** Total sales quantity (calculated as the sum of the `sales quantity` column).  
    - **Purpose:** Shows the total number of items sold across all transactions.
+
+
     sales Qty = SUM('sales transactions'[sales_qty])
 
 ### 3. **Revenue by Customer**
@@ -125,7 +129,9 @@ Created AIMS grid
    - **Metric:** Total profit margin / Revenue.
       
    - **Purpose:** To show the percentage of profit margin for each product.
-    Profit margin % = DIVIDE([Total profit Margin],[Revenue],0)
+
+
+      Profit margin % = DIVIDE([Total profit Margin],[Revenue],0)
 
 ---
 
@@ -134,7 +140,9 @@ Created AIMS grid
    - **Metric:** Profit margin for a market / Total profit margin.
     
    - **Purpose:** To identify which markets contribute most to profit.
-    Profit Mragin Contribution % = DIVIDE([Total profit Margin],CALCULATE([Total profit Margin],ALL('sales products'),ALL('sales markets'),ALL('sales customers')))  
+
+
+      Profit Mragin Contribution % = DIVIDE([Total profit Margin],CALCULATE([Total profit Margin],ALL('sales products'),ALL('sales markets'),ALL('sales customers')))  
 
 ---
 
@@ -149,7 +157,9 @@ Created AIMS grid
    - **Visual:** Measure for revenue contribution percentage.  
    - **Metric:** Revenue for a market / Total revenue.  
    - **Purpose:** To determine which markets contribute most to revenue.
-    Revenue contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales markets'),ALL('sales customers')))
+
+
+      Revenue contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales markets'),ALL('sales customers')))
 
 ---
 
