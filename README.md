@@ -134,7 +134,7 @@ Created AIMS grid
 
 
    
-   Profit margin % = DIVIDE([Total profit Margin],[Revenue],0)
+   ``` Profit margin % = DIVIDE([Total profit Margin],[Revenue],0) ```
 
 ---
 
