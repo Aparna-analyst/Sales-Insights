@@ -237,7 +237,8 @@ Following inferences can be drawn from the dashboard;
    -  Revenue shows seasonal peaks around mid-year, with a declining trend in the most recent period (2020).
  -  "Electricalsara Stores" is the largest customer, contributing significantly to revenue(413.33 M), particularly in the brick-and-mortar segment.
    - A significant portion of revenue(468.96M) is from a single product category marked as "(Blank)," followed by other key products like Prod040.
-    - **Action**: Investigate and resolve the "(Blank)" category to ensure better data integrity, and optimize inventory and marketing for top-performing products.
+
+     - **Action**: Investigate and resolve the "(Blank)" category to ensure better data integrity, and optimize inventory and marketing for top-performing products.
 ## 2. **Profit Analysis**:
  - Bhubaneswar contributes the highest profit percentage (10.5%), while Lucknow has a negative profit contribution (-2.7%).
 
