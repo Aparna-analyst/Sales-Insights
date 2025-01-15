@@ -131,7 +131,9 @@ Created AIMS grid
       
    - **Purpose:** To show the percentage of profit margin for each product.
 
- ```dax  Profit margin % = DIVIDE([Total profit Margin],[Revenue],0) ```
+ 
+  
+  Profit margin % = DIVIDE([Total profit Margin],[Revenue],0)
 
 ---
 
