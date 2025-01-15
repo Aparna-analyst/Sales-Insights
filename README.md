@@ -130,7 +130,11 @@ Created AIMS grid
    - **Metric:** Total profit margin / Revenue.
       
    - **Purpose:** To show the percentage of profit margin for each product.
-    Profit margin % = DIVIDE([Total profit Margin],[Revenue],0)
+
+
+
+   
+   Profit margin % = DIVIDE([Total profit Margin],[Revenue],0)
 
 ---
 
