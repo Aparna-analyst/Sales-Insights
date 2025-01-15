@@ -69,7 +69,7 @@ Created AIMS grid
    - **Visual Type:** Card  
    - **Metric:** Total revenue (calculated as the sum of the `sales amount` column).  
    - **Purpose:** Displays the overall revenue across all years and transactions.
-    Revenue = SUM('sales transactions'[sales_amount])
+       Revenue = SUM('sales transactions'[sales_amount])
 
 ### 2. **Total Sales Quantity**
    - **Visual Type:** Card  
