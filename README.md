@@ -272,3 +272,5 @@ Following inferences can be drawn from the dashboard;
 - The  revenue in the current year (2020) is high compared to the last year (2019) for most months, except for June 2020, where revenue fell significantly below the previous year's performance. 
 - Electricalsara Stores is the top customer, contributing 46.2% of the total revenue, while other top customers like Excel Stores and Premium Stores have a significantly smaller share.
 
+# References
+   https://codebasics.io
